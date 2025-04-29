@@ -1,0 +1,62 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgb(165 165 165 / 20%);
+}
+
+.landing-header .brand {
+  height: 32px;
+  width: 32px;
+  contain: content;
+  border-radius: 8px;
+}
+
+.landing-header .auth-buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Updated styles for the hero section */
+.hero {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  color: #ffffff;
+  flex-grow: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+/* Updated styles for the footer */
+.landing-footer {
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 1px solid rgb(165 165 165 / 20%);
+  font-size: 1rem;
+  color: #6c757d;
+  flex-grow: 0;
+}
+
+.landing-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.landing-footer a:hover {
+  text-decoration: underline;
+}
