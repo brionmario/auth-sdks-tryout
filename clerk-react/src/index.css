@@ -9,13 +9,17 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: var(--default-border-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary-foreground: #ffffff;
+  --default-text-color: #2b2b2b;
+  --default-light-text-color: #ffffff;
+  --default-border-color: rgba(0, 0, 0, 0.1);
 }
 
 #root {
@@ -35,11 +39,13 @@ a:hover {
 body {
   margin: 0;
   min-height: 100vh;
+  background: var(--primary-foreground);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: var(--default-text-color);
 }
 
 button {
