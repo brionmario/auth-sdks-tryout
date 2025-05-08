@@ -20,7 +20,7 @@ export default function HomePage() {
       <header className="landing-header">
         <div className="brand">
           <img src="https://avatar.vercel.sh/brion" alt="Brand Logo" />
-          <span className="brand-name">TeamSync</span>
+          <span className="brand-name">TeamSpace</span>
         </div>
         <div className="auth-buttons">
           <SignedOut>
@@ -50,7 +50,7 @@ export default function HomePage() {
       <main>
         <SignedOut>
           <section className="hero">
-            <h1>TeamSync - Organization Management Made Simple</h1>
+            <h1>TeamSpace - Organization Management Made Simple</h1>
             <p>
               Streamline your team collaboration with powerful organization
               management tools.
@@ -145,7 +145,7 @@ export default function HomePage() {
       </main>
 
       <footer className="landing-footer">
-        <p>&copy; 2025 TeamSync. All rights reserved.</p>
+        <p>&copy; 2025 TeamSpace. All rights reserved.</p>
       </footer>
     </div>
   );
